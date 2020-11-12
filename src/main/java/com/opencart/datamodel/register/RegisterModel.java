@@ -1,4 +1,4 @@
-package com.opencart.datamodel;
+package com.opencart.datamodel.register;
 
 import lombok.Builder;
 import lombok.Getter;

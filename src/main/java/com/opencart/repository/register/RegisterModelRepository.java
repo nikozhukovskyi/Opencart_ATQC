@@ -1,6 +1,6 @@
-package com.opencart.repository;
+package com.opencart.repository.register;
 
-import com.opencart.datamodel.RegisterModel;
+import com.opencart.datamodel.register.RegisterModel;
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class RegisterModelRepository {

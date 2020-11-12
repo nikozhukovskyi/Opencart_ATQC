@@ -1,14 +1,16 @@
-package com.opencart.pages;
+package com.opencart.pages.Login;
 
+import com.opencart.pages.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SuccessRegisterPage extends BasePage {
+public class SuccessLoginPage extends BasePage {
 
-    @FindBy(xpath = ".//*[@id='content']/h1")
+    @FindBy(xpath = ".//*[@id='content']/h2")
     private WebElement successTitle;
 
     public WebElement getSuccessTitle() {
         return successTitle;
     }
 }
+
